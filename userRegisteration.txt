@@ -1,0 +1,40 @@
+Make Project Folder
+>npx create-react-app app_name (this will create a directory in your project folder)
+
+Make Backend Folder Inside this
+Inside the backend folder...
+Install 
+>npm install mongoose express dotenv cors morgan body-parser
+dotenv folder for helping to not setting the environment variables everytime
+
+Install Nodemon Globally
+>npm install -g nodemon
+and put the command in package.json 
+script{"start":"nodemon server.js"}
+
+Change to Main folder and open public>index.html then index.js then app.js
+
+Install Bootstrap
+>npm install bootstrap
+
+add to App.js 
+>import "bootstrap/dist/css/bootstrap.min.css"
+
+Install React router dom(Makes it easier to route different url to different react components)
+>npm install react-router-dom
+
+Install Axios Library to send http requests to backend
+>npm install axios
+
+Rabbit Mq installation
+>erlang.org/downloads
+install erlang otp latest version
+then install 
+>rabitmq.exe from the rabbit mq homepage for windows installation
+
+run RabbitMQ server on port
+localhost:15672
+
+open Rabbit MQ command propmt and run the command
+>rabbitmq-plugins enable rabbitmq_management
+
